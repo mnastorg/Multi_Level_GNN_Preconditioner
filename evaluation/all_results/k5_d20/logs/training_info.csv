@@ -1,0 +1,118 @@
+Number of GPU used : 2, Device : NVIDIA GeForce GTX 1080 Ti
+70282 Train samples, 23428 Val samples, 23428 test samples
+Batch size 100
+Comment on the model : Deep Statistical Solvers d100k
+Number of parameters : 23505
+
+Complete Model : 
+DeepStatisticalSolver(
+  (phi_to_list): ModuleList(
+    (0): Phi_to()
+    (1): Phi_to()
+    (2): Phi_to()
+    (3): Phi_to()
+    (4): Phi_to()
+  )
+  (phi_from_list): ModuleList(
+    (0): Phi_from()
+    (1): Phi_from()
+    (2): Phi_from()
+    (3): Phi_from()
+    (4): Phi_from()
+  )
+  (psi_list): ModuleList(
+    (0): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=61, out_features=20, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=20, out_features=20, bias=True)
+        )
+      )
+    )
+    (1): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=61, out_features=20, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=20, out_features=20, bias=True)
+        )
+      )
+    )
+    (2): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=61, out_features=20, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=20, out_features=20, bias=True)
+        )
+      )
+    )
+    (3): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=61, out_features=20, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=20, out_features=20, bias=True)
+        )
+      )
+    )
+    (4): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=61, out_features=20, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=20, out_features=20, bias=True)
+        )
+      )
+    )
+  )
+  (decoder_list): ModuleList(
+    (0): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=20, out_features=20, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=20, out_features=1, bias=True)
+        )
+      )
+    )
+    (1): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=20, out_features=20, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=20, out_features=1, bias=True)
+        )
+      )
+    )
+    (2): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=20, out_features=20, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=20, out_features=1, bias=True)
+        )
+      )
+    )
+    (3): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=20, out_features=20, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=20, out_features=1, bias=True)
+        )
+      )
+    )
+    (4): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=20, out_features=20, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=20, out_features=1, bias=True)
+        )
+      )
+    )
+  )
+  (mse_loss): MSELoss()
+)}

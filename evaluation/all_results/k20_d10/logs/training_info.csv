@@ -1,0 +1,418 @@
+Number of GPU used : 2, Device : NVIDIA GeForce RTX 2080 Ti
+70282 Train samples, 23428 Val samples, 23428 test samples
+Batch size 100
+Comment on the model : Deep Statistical Solvers d100k
+Number of parameters : 25020
+
+Complete Model : 
+DeepStatisticalSolver(
+  (phi_to_list): ModuleList(
+    (0): Phi_to()
+    (1): Phi_to()
+    (2): Phi_to()
+    (3): Phi_to()
+    (4): Phi_to()
+    (5): Phi_to()
+    (6): Phi_to()
+    (7): Phi_to()
+    (8): Phi_to()
+    (9): Phi_to()
+    (10): Phi_to()
+    (11): Phi_to()
+    (12): Phi_to()
+    (13): Phi_to()
+    (14): Phi_to()
+    (15): Phi_to()
+    (16): Phi_to()
+    (17): Phi_to()
+    (18): Phi_to()
+    (19): Phi_to()
+  )
+  (phi_from_list): ModuleList(
+    (0): Phi_from()
+    (1): Phi_from()
+    (2): Phi_from()
+    (3): Phi_from()
+    (4): Phi_from()
+    (5): Phi_from()
+    (6): Phi_from()
+    (7): Phi_from()
+    (8): Phi_from()
+    (9): Phi_from()
+    (10): Phi_from()
+    (11): Phi_from()
+    (12): Phi_from()
+    (13): Phi_from()
+    (14): Phi_from()
+    (15): Phi_from()
+    (16): Phi_from()
+    (17): Phi_from()
+    (18): Phi_from()
+    (19): Phi_from()
+  )
+  (psi_list): ModuleList(
+    (0): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (1): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (2): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (3): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (4): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (5): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (6): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (7): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (8): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (9): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (10): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (11): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (12): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (13): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (14): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (15): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (16): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (17): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (18): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+    (19): Psi(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=31, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=10, bias=True)
+        )
+      )
+    )
+  )
+  (decoder_list): ModuleList(
+    (0): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (1): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (2): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (3): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (4): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (5): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (6): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (7): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (8): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (9): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (10): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (11): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (12): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (13): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (14): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (15): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (16): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (17): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (18): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+    (19): Decoder(
+      (mlp): MLP(
+        (mlp): Sequential(
+          (0): Linear(in_features=10, out_features=10, bias=True)
+          (1): ReLU()
+          (2): Linear(in_features=10, out_features=1, bias=True)
+        )
+      )
+    )
+  )
+  (mse_loss): MSELoss()
+)}

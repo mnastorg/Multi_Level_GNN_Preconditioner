@@ -1,0 +1,19 @@
+{
+  "config_model": {
+                    "latent_dim": 10,
+                    "k": 10,
+                    "alpha": 0.001,
+                    "gamma": 1.0
+                  },
+
+  "config_train": {
+                  "path_dataset"  : "../dataset/dTest",
+                  "comment"       : "Running test",
+                  "num_workers"   : 10,
+                  "batch_size"    : 100,
+                  "lr"            : 0.01,
+                  "gradient_clip" : 0.01,
+                  "max_epochs"    : 400,
+                  "min_loss_save" : 1000
+                }
+}

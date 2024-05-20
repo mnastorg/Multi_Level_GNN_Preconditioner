@@ -1,0 +1,38 @@
+{
+   "0.6": {
+      "mean_nodes": 2632.27,
+      "std_nodes": 90.98657648246801,
+      "mean_sub": 5.88,
+      "std_sub": 0.32496153618543844,
+      "mean_iter_gnn": 24.52,
+      "std_iter_gnn": 1.381882773609976,
+      "mean_iter_lu": 22.38,
+      "std_iter_lu": 1.3174217244299564,
+      "mean_iter_cg": 113.99,
+      "std_iter_cg": 3.6152316661591692
+   },
+   "1.0": {
+      "mean_nodes": 7148.67,
+      "std_nodes": 247.44252080028608,
+      "mean_sub": 14.81,
+      "std_sub": 0.5421254467371921,
+      "mean_iter_gnn": 31.02,
+      "std_iter_gnn": 1.4420818284688288,
+      "mean_iter_lu": 29.43,
+      "std_iter_lu": 1.372989439143652,
+      "mean_iter_cg": 183.94,
+      "std_iter_cg": 6.8188268785766954
+   },
+   "2.2": {
+      "mean_nodes": 33969.99,
+      "std_nodes": 1181.5679032116607,
+      "mean_sub": 68.44,
+      "std_sub": 2.3593219364893803,
+      "mean_iter_gnn": 45.37,
+      "std_iter_gnn": 2.4521623111042223,
+      "mean_iter_lu": 42.31,
+      "std_iter_lu": 1.863840121898871,
+      "mean_iter_cg": 385.06,
+      "std_iter_cg": 17.34694209363714
+   }
+}
